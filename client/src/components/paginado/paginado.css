@@ -1,0 +1,40 @@
+nav{
+    margin: 0 auto;
+}
+.paginado {
+    display: flex;
+    list-style: none;
+    width: 500px;
+    justify-content: space-between;
+    padding: 0px 0 50px 0;    
+}
+.paginado li {
+    width: 50px;
+    height: 40px;
+    background-color: #000;
+    border: none;
+    outline: none !important;
+}
+.number {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    padding-top: 7px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.number:hover {
+    color: #d94416;
+}
+
+.paginado-title {
+    color: #fff;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,121 @@
+.box-detail{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(22,58,82,255);;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.detail-content{
+    width: 450px;
+    color: #000;
+}
+.detail-content h3{
+    margin: 0;
+    padding: 0;
+}
+.detail{
+    background: #fff url('https://ideogram.ai/api/images/direct/uvTOIiK7TRK2_NK3NRmexQ') right no-repeat;
+    background-size: 480px;
+    border-radius: 2rem;
+    border: 5px solid #000;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+    width: 938px;
+    height: 600px;
+    margin: 2rem 0rem;
+    position: relative;
+}
+ 
+.detail-img {
+    width: 350px;
+    height: 350px;
+    margin: 2px 0 0 0;
+}
+.detail-Id{
+    margin: 2px 0 0 0;
+}
+.detail-title{
+    margin: 2px 0 0 0;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.teams{
+    margin: 0 0  15px 0;
+}
+.btnPosition{
+    display: flex;
+    text-align: left;
+    margin: -32rem 0rem 0rem 8rem;
+    position: absolute;
+}
+.btn-home{
+    border: none;
+    background-color: #fff;
+}
+.description h3{
+    margin: 0;
+    padding: 0;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-eye{
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+.modal {
+  position: fixed; /* Posición fija */
+  z-index: 1; /* Se situará por encima de otros elementos de la página*/
+  padding-top: 200px; /* El contenido estará situado a 200px de la parte superior */
+  left: 0;
+  top: 0;
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Algura completa */
+  overflow: auto; /* Se activará el scroll si es necesario */
+  background-color: rgba(0,0,0,0.5); /* Color negro con opacidad del 50% */
+}
+.modal-content {
+    position: relative; /* Relativo con respecto al contenedor -modal- */
+    background-color: white;
+    margin: auto; /* Centrada */
+    padding: 5px 20px 20px 20px;
+    width: 700px;
+    -webkit-animation-name: animarsuperior;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animarsuperior;
+    animation-duration: 0.5s
+  }
+  /* Add Animation */
+@keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+  
+@keyframes animarsuperior {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+} 
+
+.close {
+    color: black;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

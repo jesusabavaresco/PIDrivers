@@ -1,0 +1,37 @@
+
+.box {
+    background: rgba(41,40,46,255) url('https://cdn.dribbble.com/userupload/8765651/file/original-420527c97a6cce07e355005826e73fc1.jpg?resize=1024x749');
+    /* background: rgba(146,146,146,255) url('https://cdn.dribbble.com/users/192948/screenshots/744715/attachments/72028/f1.jpg') no-repeat; */
+
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    position: relative;
+}
+
+h1 {
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+}
+
+.btn-landing {
+    position: absolute;
+    top:30rem;
+    left: 60rem;
+}
+.logo {
+    background-color: #3e445a;
+    width: 180px;
+    height: 120px;
+
+}
+.landingTitle{
+    text-align: right;
+    padding-right: 2rem;
+    font-weight: 900;
+    color: transparent;
+    color: rgba(40,39,45,255);
+}

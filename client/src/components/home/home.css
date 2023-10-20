@@ -1,0 +1,58 @@
+.container-home{
+  /* background: rgb(13,4,2);
+  background: linear-gradient(0deg, rgba(13,4,2,1) 11%, rgba(217,68,22,1) 100%); */
+  /* background: rgba(249,250,252,255) url('https://cdn.dribbble.com/users/2415991/screenshots/5279255/media/e6542346ce833ba775f8b38c7efbd277.jpg?resize=768x576&vertical=center') center no-repeat fixed; */
+  /* background: rgb(166,166,166) ; */
+  /* background: linear-gradient(0deg, rgba(166,166,166,1) 50%, rgba(212,212,212,1) 100%) url('https://cdn.dribbble.com/users/2415991/screenshots/5279255/media/e6542346ce833ba775f8b38c7efbd277.jpg?resize=768x576&vertical=center') center no-repeat fixed; */
+  background-color: rgba(22,58,82,255);
+}
+.container-cards {
+    margin: 20px;
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+.paginado {
+    margin: 0 auto;
+}
+
+.box-loader{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+}
+.link{
+    text-decoration: none;
+}
+.currentPage{
+  color: #000;
+}
+.spinner{
+  border-radius: 999px;
+  width: 200px;
+  height: 200px;
+}
+.container-noDriver {
+  width: 100vw;
+  margin-top: 0px;
+  height: 500px;
+}
+.imgNoDriver{
+  width: 1400px;
+  height: 80vh;
+}
+.h1NoDriver{
+  margin-top: -480px;
+  color: #000;
+  overflow: none;
+}
+.btnNoDriver{
+  padding: 0px;
+  position: absolute;
+  margin: 15px 0px 10px 25px;
+}
+.positionBtnContainer{
+  position: relative;
+}

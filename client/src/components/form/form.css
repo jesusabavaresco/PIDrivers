@@ -1,0 +1,168 @@
+.top{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    /* background: rgba(22,58,82,255); */
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.form{
+    width: 40%;
+    /* border:  5px solid black; */
+    /* background: #fff url('https://cdn.dribbble.com/userupload/3677650/file/original-4374b34380c841635fb7d51affcd3224.png?resize=1024x768') left no-repeat; */
+    /* background-size: 412px; */
+    /* border-radius: 25px; */
+    /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* padding-right: 8rem;
+    text-align: center;
+    width: 938px;
+    height: 650px; */ 
+}
+.positionBtn {
+    /* display: flex;
+    align-items: left;
+    justify-content: first baseline;
+    margin-top: 2rem;
+    padding: 0rem 1rem 34.5rem 0rem; */
+    position: absolute;
+    top: 15px;
+    left: 10px
+}
+.btnHome {
+    border: none;
+    background-color: #fff;
+}
+.title-create{
+    color: #000;
+    margin: 0;
+}
+
+.controls{
+    width: 350px;
+    padding: 1rem 2rem;
+    color: #000;
+    background-color: #fff;
+    margin-bottom: 2px;
+    border: 2.5px solid black;
+    border-radius: 8px;
+}
+
+.error{
+    margin:0px;
+    color: red;
+    padding: 0px;
+    width: 400px;
+}
+.btn-form {
+    padding: 20px 20px 0px 20px;
+    width: 417px;
+    display: flex;
+    justify-content: center;
+}
+.btn-one{
+    margin: 3px 0;color: white;
+    background-color:  rgba(22,58,82,255);
+}
+
+.btn-one:disabled:hover{
+    cursor:not-allowed;
+}
+.select{
+    padding: 1rem 6.9rem;
+    color: #000;
+    background-color: #fff;
+}
+
+.cont{
+    margin: 2px;
+}
+
+.titleInput{
+    color: rgba(0, 0, 0, 0.654);
+    margin: 0;
+    text-align: left;
+    font-size: x-small;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    font-size: 20px;
+    }
+
+.box-logo-left {
+    width: 60%;
+    height: 100vh;
+
+}
+
+.img-logo-left {
+    width: 840px;
+    height: 100%;
+}
+
+.detail-box-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.modal-S {
+    position: fixed; /* Posición fija */
+    z-index: 1; /* Se situará por encima de otros elementos de la página*/
+    padding-top: 200px; /* El contenido estará situado a 200px de la parte superior */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Algura completa */
+    overflow: auto; /* Se activará el scroll si es necesario */
+    background-color: rgba(0,0,0,0.5); /* Color negro con opacidad del 50% */
+  }
+  .modalContent {
+      position: relative; /* Relativo con respecto al contenedor -modal- */
+      background-color: white;
+      margin: auto; /* Centrada */
+      padding: 5px 20px 20px 20px;
+      width: 400px;
+      -webkit-animation-name: animarsuperior;
+      -webkit-animation-duration: 0.5s;
+      animation-name: animarsuperior;
+      animation-duration: 0.5s;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+    }
+    .modalContent h2 {
+        color: #000;
+    }
+    .modalContent img {
+        margin-left: 30px;
+    }
+    /* Add Animation */
+  @keyframes animatetop {
+      from {top:-300px; opacity:0} 
+      to {top:0; opacity:1}
+  }
+    
+  @keyframes animarsuperior {
+      from {top:-300px; opacity:0}
+      to {top:0; opacity:1}
+  } 
+  
+  .close {
+      color: black;
+      float: right;
+      font-size: 30px;
+      font-weight: bold;
+  }
+    
+  .close:hover,
+  .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+  }
