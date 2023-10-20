@@ -70,6 +70,7 @@ const HomePage = () => {
                             <div key={elemento.id}> 
                             <Link className='link' to={`/detail/${elemento.id}`}>
                                 <Card
+                                id={elemento.id}
                                 name={elemento.name}
                                 lastName={elemento.lastName}
                                 image={elemento.image ? elemento.image : defaultImg}
